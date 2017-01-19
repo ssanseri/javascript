@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Input two numbers, then multiply or divide them</title>
+		<style type="text/css">
+		    body {margin: 30px;}
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="javascript-input-two-numbers.js"></script>
+	</head>
+	<body>
+
+		<!-- input form -->
+		<div>
+			<form action="" method="post">
+				<label>1st Number: </label><input id="number1" type="text" value=""><br>
+				<label>2nd Number: </label><input id="number2" type="text" value=""><br>
+				<input type="button" onclick="multiply()" value="Multiply" />
+				<input type="button" onclick="divide()" value="Divide" />
+				<p>The result is : 
+		        <span id = "result"></span>
+		        </p>
+     		</form>
+		</div>
+		<!--END input form -->
+		
+	</body>
+</html>

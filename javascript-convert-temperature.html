@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Convert Temperature</title>
+		<style type="text/css">
+		    body {margin: 30px;}
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="javascript-convert-temperature.js"></script>
+	</head>
+	<body>
+
+		<!-- input form -->
+		<div>
+			<form action="" method="post">
+				<label>Input Temperature: </label><input id="number1" type="text" value=""><br><br>
+				<input type="button" onclick="convertToF()" value="Convert C to F" />
+				<input type="button" onclick="convertToC()" value="Convert F to C" />
+				<p>The result is : 
+		        <span id = "result"></span>
+		        </p>
+     		</form>
+		</div>
+		<!--END input form -->
+		
+	</body>
+</html>
